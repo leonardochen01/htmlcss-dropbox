@@ -463,6 +463,7 @@ label{
   background-position: center;
   background-image: url(img/designit.svg);
   background-color: rgb(162, 211, 155);
+  filter: invert(1);
 }
 
 .team-2{
@@ -473,6 +474,7 @@ label{
   background-position: center;
   background-image: url(img/arizona_state_university.svg);
   background-color: rgb(97, 8, 43);
+  filter: invert(1);
 }
 
 .team-3{
@@ -483,6 +485,7 @@ label{
   background-position: center;
   background-image: url(img/university_of_florida.svg);
   background-color: rgb(0, 147, 206);
+  filter: invert(1);
 }
 
 .team-4{
@@ -493,6 +496,7 @@ label{
   background-position: center;
   background-image: url(img/topps.svg);
   background-color: rgb(255, 28, 28);
+  filter: invert(1);
 }
 
 /*COL DX*/
@@ -510,6 +514,7 @@ label{
   background-position: center;
   background-image: url(img/world_bicycle_relief.svg);
   background-color: rgb(213, 0, 31);
+  filter: invert(1);
 }
 
   .team-6{
@@ -520,6 +525,7 @@ label{
     background-position: center;
     background-image: url(img/hearst_corp.svg);
     background-color: rgb(180, 208, 231);
+    filter: invert(1);
   }
 
     .team-7{
@@ -530,6 +536,7 @@ label{
       background-position: center;
       background-image: url(img/lonely_planet.svg);
       background-color: rgb(13, 36, 129);
+      filter: invert(1);
     }
 
       .team-8{
@@ -540,6 +547,7 @@ label{
         background-position: center;
         background-image: url(img/clear_channel.svg);
         background-color: rgb(255, 216, 48);
+        filter: invert(1);
       }
 
       /*FINE TEAMS INIZIO SUGGERIMENTO*/
@@ -548,20 +556,34 @@ label{
         width: 100vw;
         height: 300px;
         background-color: rgb(180, 208, 231);
+        align-items: center;
+        justify-content: center;
+      }
+
+      .suggerimento section{
+        width: 80%;
+        height: 200px;
+        justify-content: space-between;
+      }
+
+      .suggerimento section div:first-child{
+        width: 40%;
+        align-self: center;
+        margin-left: 200px;
+      }
+
+      .suggerimento section div:last-child{
+        width: 40%;
+        align-self: center;
+        margin-left: 400px;
       }
 
       .porta{
-        position: absolute;
-        top: 50%;
-        left: 10%;
         color: rgb(97, 8, 43);
         font-size: 2.5rem;
       }
 
       .prova{
-        position: absolute;
-        top: 50%;
-        right: 20%;
         border: none;
         padding: 10px 50px;
         font-size: 1rem;
