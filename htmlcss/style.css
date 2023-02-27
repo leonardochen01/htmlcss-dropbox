@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li:hover, .c-inizia button:hover, .jumbo-p button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/*UTILITIES CLASS*/
+
+.flex{
+  display: flex;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+.fixed{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.relative{
+  position: relative;
+}
+
+/*CSS*/
+
+/*MENU FIXED*/
+
+.c-logo{
+  width: 10vw;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  max-height: 25px;
+  width: auto;
+}
+
+.c-info{
+  width: 42vw;
+  height: 70px;
+}
+
+.li-info{
+  height: 70px;
+  gap: 40px;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.c-supporto{
+  width: 42vw;
+  height: 70px;
+}
+
+.li-supporto{
+  height: 70px;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+.c-inizia{
+  width: 6vw;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-inizia button{
+  background-color: rgb(0, 97, 255);
+  color: white;
+  border: none;
+  padding: 4px 14px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.li-info, .li-supporto{
+  list-style: none;
+  font-size: 1rem;
+}
+
+/*JUMBO*/
+
+.jumbo{
+  background-color: rgb(180, 208, 231);
+  margin-top: 70px;
+  width: 100vw;
+  height: 80vh;
+  flex-direction: column;
+}
+
+.jumbo-h1{
+  font-size: 40px;
+  width: 70vw;
+  margin-left: 15vw;
+  padding-top: 80px;
+}
+
+.jumbo-p{
+  width: 21vw;
+  margin-top: 40px;
+  margin-left: 15vw;
+}
+
+.jumbo-p h6{
+  font-size: 1rem;
+}
+
+.jumbo-p button{
+  background-color: rgb(0, 97, 255);
+  padding: 8px 15px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-top: 30px;
+}
+
+.jumbo-p p{
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.jumbo-img img{
+  width: 900px;
+  height: auto;
+  position: absolute;
+  right: 10vw;
+  bottom: 0vh;
+}
+
+.jumbo-p i{
+  font-size: 35px;
+  padding-top: 40px;
+} 
+
+
+/*ho fatto un div che contiene tutto il resto centrato orizzontalmente*/
+
+#corpo{
+  background-color: rgb(174, 236, 161);
+  width: 60vw;
+  height: 5000px;
+  margin: 0 auto;
+}
+
+/*PIANI*/
+
+.piano-intro h2{
+  margin-top: 200px;
+  font-size: 40px;
+  font-weight: bolder;
+  padding-bottom: 50px;
+}
+
+label{
+  margin-right: 10px;
+}
