@@ -157,9 +157,8 @@ li:hover, button:hover, h5 span:hover{
 /*ho fatto un div che contiene tutto il resto centrato orizzontalmente*/
 
 #corpo{
-  background-color: rgb(174, 236, 161);
   width: 60vw;
-  height: 5000px;
+  height: 3300px;
   margin: 0 auto;
 }
 
@@ -435,3 +434,110 @@ label{
   font-size: 0.8rem;
   padding-top: 20px;
 }
+
+/*INIZIO TEAMS*/
+
+.c-team{
+  width: 100vw;
+  height: 600px;
+  background-color: rgb(218, 216, 216);
+}
+
+.c-team section{
+  width: calc(100vw / 3);
+  height: 600px;
+}
+
+/*COL SX*/
+
+.col-sx div{
+  width: calc(100% / 2);
+  height: 300px;
+}
+
+.team-1{
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+  background-image: url(img/designit.svg);
+  background-color: rgb(162, 211, 155);
+}
+
+.team-2{
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: 120px;
+  background-position: center;
+  background-image: url(img/arizona_state_university.svg);
+  background-color: rgb(97, 8, 43);
+}
+
+.team-3{
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: center;
+  background-image: url(img/university_of_florida.svg);
+  background-color: rgb(0, 147, 206);
+}
+
+.team-4{
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+  background-image: url(img/topps.svg);
+  background-color: rgb(255, 28, 28);
+}
+
+/*COL DX*/
+
+.col-dx div{
+  width: calc(100% / 2);
+  height: 300px;
+}
+
+.team-5{
+  height: 300px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+  background-image: url(img/world_bicycle_relief.svg);
+  background-color: rgb(213, 0, 31);
+}
+
+  .team-6{
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    background-image: url(img/hearst_corp.svg);
+    background-color: rgb(180, 208, 231);
+  }
+
+    .team-7{
+      height: 300px;
+      width: auto;
+      background-repeat: no-repeat;
+      background-size: 150px;
+      background-position: center;
+      background-image: url(img/lonely_planet.svg);
+      background-color: rgb(13, 36, 129);
+    }
+
+      .team-8{
+        height: 300px;
+        width: auto;
+        background-repeat: no-repeat;
+        background-size: 150px;
+        background-position: center;
+        background-image: url(img/clear_channel.svg);
+        background-color: rgb(255, 216, 48);
+      }
