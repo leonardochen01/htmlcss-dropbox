@@ -12,6 +12,10 @@ li:hover, button:hover, h5 span:hover{
 
 /*UTILITIES CLASS*/
 
+.debug{
+
+}
+
 .flex{
   display: flex;
 }
@@ -177,7 +181,7 @@ label{
   justify-content: space-between;
 }
 
-section{
+.c-piani section{
   width: calc(55vw / 3);
   height: 800px;
   border: 1px solid grey;
@@ -187,6 +191,7 @@ section{
   border-bottom: 1px solid gray;
   padding: 10px 0;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .col{
@@ -233,4 +238,200 @@ section{
 
 .col h5{
   font-size: 0.8rem;
+}
+
+
+/*CHIUSURA COLONNE E INIZIO ENTERPRISE*/
+
+
+.c-enterprise{
+  width: 60vw;
+  height: 220px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid gray;
+}
+
+.c-enterprise section{
+  justify-content: space-between;
+  padding: 0 30px;
+  padding-top: 30px;
+}
+
+.c-enterprise section h3{
+  font-size: 1.6rem;
+}
+
+.c-enterprise section button{
+  background-color: rgb(0, 97, 255);
+  border: none;
+  padding: 10px 60px;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.c-enterprise h4{
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.c-enterprise h5{
+  padding-left: 30px;
+  padding-top: 30px;
+  font-size: 0.8rem;
+}
+
+
+/*FINE ENTERPRISE INIZIO PARTNER*/
+
+
+.c-partner{
+  width: 60vw;
+  height: 50vh;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.partner-img{
+  width: 30vw;
+  background-image: url(img/partner.png);
+  background-size: cover;
+}
+
+.partner-text-c{
+  width: 30vw;
+}
+
+.partner-text{
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+.partner-text h2{
+  font-size: 1.7rem;
+  padding-bottom: 30px;
+}
+
+.partner-text p{
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.partner-text button{
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/*FINE PARTNER INIZIO OPERAZIONI*/
+
+
+.c-operazioni{
+  width: 60vw;
+  padding-top: 100px;
+}
+
+.c-operazioni div{
+  justify-content: space-between;
+}
+
+.c-operazioni h3{
+  padding-bottom: 40px;
+  font-size: 1.7rem;
+}
+
+.c-operazioni section{
+  width: calc(56vw / 3);
+  height: 550px;
+}
+
+.sec-1-img{
+  background-image: url(img/business-feature-switching-tools.png);
+  width: auto;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec-2-img{
+  background-image: url(img/business-feature-coordinate-it.png);
+  width: auto;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec-3-img{
+  background-image: url(img/business-feature-multi-device.png);
+  width: auto;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec-4-img{
+  background-image: url(img/business-feature-integrations-it.png);
+  width: auto;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec-5-img{
+  background-image: url(img/business-feature-send-files-it.png);
+  width: auto;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sec-6-img{
+  background-image: url(img/business-feature-security.png);
+  width: auto;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.c-operazioni div h4{
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 20px;
+}
+
+.c-operazioni div h5{
+  font-size: 0.8rem;
+  padding-top: 20px;
+  line-height: 20px;
+}
+
+.c-operazioni div h5 span{
+  text-decoration: underline;
+}
+
+/*FINE OPERAZIONI E INIZIO PARAGRAFO STATS*/
+
+.c-statistica{
+  width: 60vw;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.c-statistica h2{
+  font-size: 1.6rem;
+}
+
+.c-statistica p{
+  color: rgb(0, 95, 255);
+  text-decoration: underline;
+  font-size: 0.8rem;
+  padding-top: 20px;
 }
